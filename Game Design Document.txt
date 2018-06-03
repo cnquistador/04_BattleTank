@@ -1,0 +1,20 @@
+CONTROLS
+
+Keyboard:
+W = Forward
+A = Turn Left
+S = Reverse
+D = Turn Right
+
+Rotating Turret/Elevating Barrel = Mouse
+
+Controller:
+Left Trigger = Forward Left Track
+Right Trigger = Forward Right Track
+Both Triggers = Forward
+
+Left Bumper = Reverse Left Track
+Right Bumper = Reverse Right Track
+Both Bumpers = Reverse
+
+Rotating Turret/Elevating Barrel = Right Stick
