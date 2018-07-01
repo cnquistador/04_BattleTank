@@ -69,13 +69,11 @@ bool ATankPlayerController::GetLookDirection(FVector2D ScreenLocation, FVector &
 {
 	FVector CameraWorldLocation;
 
-	DeprojectScreenPositionToWorld(
+	return DeprojectScreenPositionToWorld(
 		ScreenLocation.X, 
 		ScreenLocation.Y, 
 		CameraWorldLocation, 
 		LookDirection);
-
-	return true;
 }
 
 
