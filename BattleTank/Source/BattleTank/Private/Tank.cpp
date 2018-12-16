@@ -36,7 +36,8 @@ void ATank::Fire()
 void ATank::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	auto TankName = GetName();
+	UE_LOG(LogTemp, Warning, TEXT("%s EAGLE: ATank::BeginPlay() called"), *TankName);
 }
 
 void ATank::AimAt(FVector HitLocation)
